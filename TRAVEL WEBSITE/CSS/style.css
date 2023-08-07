@@ -1,0 +1,719 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Source+Serif+Pro:ital,wght@0,300;0,400;0,600;1,400;1,900&display=swap');
+*{
+    margin : 0;
+    padding : 0; 
+    box-sizing: border-box;
+}
+body{
+    font-family:'Source Serif Pro', serif;
+}
+.header{
+    height:95vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../IMG/header-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white ;
+    
+}
+.wah2{
+    float:left;
+    padding-top: 0.9%;
+    padding-left: 20%;
+}
+
+.gym{
+    text-align: right;
+    margin-right: 5%;
+   
+}
+li{
+    display: inline-block; 
+    padding-top: 2%;
+    padding-right: 3%;
+}
+.joy{
+    color: white;
+    text-decoration: none;
+}
+.joy:hover{
+    border-bottom: 2px solid white;
+}
+.p{
+    
+    text-align : center;
+    font-size: 300%;
+    padding-top: 15%;
+    font-weight: 800;
+}
+.q{
+    text-align: center;
+    font-size: 130%;
+}
+.best{
+    display: block;
+    text-align: center;
+    background-color: rgb(155, 155, 163);
+    margin-top: 3%;
+    padding:1%;
+    width: 20%;
+    margin-left: 40%;
+   font-weight: 700;
+   text-decoration: none;
+   color: rgb(50, 50, 123);
+   border-radius: 100px;
+   font-size: 140%;
+}
+
+.showcase{
+    padding: 100px 0;
+    background-color: rgb(155, 155, 163);
+}
+.row1{
+    height: 350px;
+    box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
+    width: 60%;
+    margin-left: 19%;
+    
+}
+.row2{
+    height: 350px;
+    box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
+    width: 60%;
+    margin-left: 19%;
+    margin-top: 7%;
+}
+.row1 .img , .row2 .text{
+    float: left;
+    width: 50%;
+    height:100%
+}
+.row2 .img , .row1 .text{
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+.row1 .img{
+    background: url(../IMG/pexels-photo-2131623.webp);
+    background-position: center;
+}
+.row2 .img{
+    background: url(../IMG/pexels-photo-2499699.jpeg);
+    background-position: center;
+}
+.row1 .text , .row2 .text{
+    background-color: white;
+}
+.super{
+    margin-top: 5%;
+    font-weight: 900;
+    font-size: 200%;
+    text-align: center;
+}
+.one{
+    margin-top: 2%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 125%;
+}
+.best1{
+    display: block;
+    text-align: center;
+    background-color: rgb(155, 155, 163);
+    margin-top: 7%;
+    padding:1%;
+    width: 20%;
+    margin-left: 40%;
+   font-weight: 400;
+   text-decoration: none;
+   color: black;
+   font-size: 100%;
+   border-radius: 20px;
+   border: 2px solid black ;
+}
+.best1:hover{
+    background-color: rgb(111, 111, 140) ;
+}
+.best:hover{
+    background-color: rgb(111, 111, 140) ;
+}
+.yes{
+    background-color:white;
+    
+    padding-top:100px;
+    padding-bottom: 100px;
+}
+.end{
+    
+    width: 80%;
+   
+    margin-left: 20%;
+    margin-bottom: 20%;
+    
+}
+.end1{
+    height: 250px;
+    float: left;
+    width: 26.66%;
+    background-color: rgb(28, 28, 50);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.579);
+    text-align: center;
+    padding-top: 2%;
+}
+.end2{
+    height: 250px;
+    float: left;
+    width: 26.66%;
+    background-color: brown;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.579);
+    text-align: center;
+    padding-top: 2%;
+}
+.end3{
+    height: 250px;
+    float: left;
+   width: 26.66%;
+    background-color: rgb(28, 28, 50);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.579);
+    text-align: center;
+    padding-top: 2%;
+}
+.super1{
+    margin-top: 7%;
+    font-weight: 900;
+    font-size: 150%;
+    text-align: center;
+    color: white;
+}
+.one1{
+    margin-top: 4%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 100%;
+    color: white;
+}
+.footer1 i{
+    
+    margin: 2rem;
+}
+footer{
+   
+    text-align: center;
+    background-color: rgb(28, 28, 50);
+    padding: 30px;
+    
+}
+.footer{
+    font-size: 150%;
+    color: whitesmoke ;
+}
+
+.about{
+    background-color:  rgb(28, 28, 50);
+    padding: 2%;
+}
+.hanuman{
+    color: white;
+}
+.triangle{
+    color: black;
+    font-size: 190%;
+    font-weight: 800;
+    border-bottom: 3px solid brown;
+    width:70%;
+    margin-left: 15% ;
+    margin-top: 2%;
+}
+.rectangle{
+    margin-left: 15% ;
+    width:70%;
+    margin-top: 2%;
+    font-size: 130%;
+    font-weight: 500;
+
+}
+.durga{
+   
+    font-size: 120%;
+    font-weight: 600;
+}
+.maha{
+    float: left;
+   width: 50%;
+   padding-left: 15%;
+   padding-top: 1%;
+}
+.dev{
+    float: right;
+    width:50%;
+    padding-left: 15%;
+    padding-top: 1%;
+}
+.maha li{
+    padding-top: 15px; 
+}
+.dev li{
+    padding-top: 15px; 
+}
+.durga::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.durga li::before{
+    content:'\2713';
+    color:brown;
+    font-weight: bolder;
+    padding-right: 1rem;
+}
+.count-item{
+    float:left;
+    padding-left: 15%;
+    padding-top: 1% ;
+    margin-top: 1rem;
+}
+.a1{
+    font-size: 200%;
+    font-weight: 800;
+    color: brown;
+}
+.b1{
+    padding-top: 0.5%;
+    font-size: 140%;
+}
+.counts::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.c1{
+    
+    background-color: brown;
+    width: 70%;
+    margin-left: 15%;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px #00000042;
+    margin-top: 2rem;
+}
+.e1{
+    width: 60%;
+    float: left;
+    color: white;
+    font-weight: 900;
+    font-size: 150%;
+    margin-top: 1rem;
+}
+.d1{
+    width: 80%;
+    float: right;
+    color: white;
+    text-align: center;
+    margin-top: 0rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 180%;
+    border:4px solid white;
+    padding:0.3rem 1.5rem;
+    letter-spacing: 0.5rem;
+    text-decoration: none;  
+}
+
+.c1::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+
+.address{
+    float: left;
+    width:49%;
+    padding-top: 5rem;
+    padding-left: 20%;
+}
+.form{
+    float: right;
+    width:49%;
+    padding-top: 5rem;
+    
+}
+.contact::after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
+
+.address1{
+    font-size: 160%;
+    font-weight: 500;
+    letter-spacing: 0.3rem;
+
+}
+.theory{
+    font-size: 120%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.count-item1 h2{
+    display: inline-block;
+    color: brown;
+    font-weight: 900;
+}
+img{
+    width:90%; 
+    height: 50%;  
+}
+
+.form input{
+    padding: 0.5rem;
+    width:70%;
+    display: block;
+    margin-top: 3%;
+}
+.wah{
+    border-bottom: 2px solid  rgb(28, 28, 50);
+   
+    width:70%;
+
+    color: brown;
+    font-size: xx-large;
+}
+.wah3{
+    margin-top: 5%;
+    font-size: 150%;
+    margin-bottom: 3%;
+}
+.wah4 .games123{
+    display: block;
+}
+.wah4 label{
+    font-size: 140%;
+}
+.wah4 textarea{
+    display: block;
+    padding: 4%;
+    width: 70%;
+    height: 8rem;
+}
+.wah5{
+    margin-top: 3%;
+    padding: 3% 4%;
+    background-color: brown;
+    color: white;
+    border-radius: 8%;
+}
+
+
+/*################  MEDIA QUERIES  ###################*/
+
+@media (max-width:500px){
+    html{
+        font-size: 50%;
+    }
+    .header{
+        height:80vh;
+    }
+    .wah2{
+        float: none;
+        display: block;
+        text-align: center;
+        padding-left: 0%;
+    }
+    .gym{
+        float: none;
+        display: block;
+        text-align: center;
+        margin-right: 0%;
+    }
+    .one{
+        height: auto;
+        width: 100%;
+    }
+    .row1 .img , .row2 .text{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .row2 .img , .row1 .text{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .row1 .img , .row2 .img{
+        height: 150px;
+    }
+    .row1 .text , .row2 .text{
+        height: 150px;
+    }
+    .end1 , .end2 , .end3{
+        float: none;
+        width: 60%;
+        text-align: center;
+        margin-left: 7%;
+        height:170px;
+        margin-top: 7rem;
+
+
+    }
+    .count-item{
+        padding-left: 13%;
+    }
+    .dev{
+        padding-left: 7%;
+    }
+    .p {
+        padding-top: 40%;
+    }
+    .q{
+        padding-top: 6%;
+    }
+    .best{
+        margin-top: 6%;
+    }
+    .row1 , .row2{
+        margin-left: 19%;
+    }
+    .e1 , .d1{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .d1{
+        display: block;
+        margin-left: 25%;
+    }
+    .form , .address{
+        float: none;
+        width: 100%;
+        height: auto;
+        text-align: center;
+
+    }
+    .address{
+        padding-left: 0%;
+    }
+    .form{
+        padding-left: 25%;
+    }
+    .wah3{
+        padding-right: 25%;
+    }
+    .wah4{
+        padding-top: 5%;
+    }
+    .wah4 label{
+        padding-right: 88%;
+        
+    }
+    .wah5{
+        margin-right: 25%;
+    }
+    
+}
+@media (min-width:501px) and (max-width:768px){
+    html{
+        font-size: 70%;
+    }
+    .wah2{
+        float: none;
+        display: block;
+        text-align: center;
+        padding-left: 0%;
+    }
+    .gym{
+        float: none;
+        display: block;
+        text-align: center;
+        margin-right: 0%;
+    }
+    .one{
+        height: auto;
+        width: 100%;
+    }
+    .row1 .img , .row2 .text{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .row2 .img , .row1 .text{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .row1 .img , .row2 .img{
+        height: 150px;
+    }
+    .row1 .text , .row2 .text{
+        height: 200px;
+    }
+    .end1 , .end2 , .end3{
+        float: none;
+        width: 60%;
+        text-align: center;
+        margin-left: 7%;
+        height:170px;
+        margin-top: 7rem;
+
+
+    }
+    .p {
+        padding-top: 40%;
+    }
+    .q{
+        padding-top: 6%;
+    }
+    .best{
+        margin-top: 6%;
+    }
+    .row1 , .row2{
+        margin-left: 19%;
+    }
+    .e1 , .d1{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .d1{
+        display: block;
+        margin-left: 25%;
+    }
+    .form , .address{
+        float: none;
+        width: 100%;
+        height: auto;
+        text-align: center;
+
+    }
+    .address{
+        padding-left: 0%;
+    }
+    .form{
+        padding-left: 25%;
+    }
+    .wah3{
+        padding-right: 25%;
+    }
+    .wah4{
+        padding-top: 5%;
+    }
+    .wah4 label{
+        padding-right: 90%;
+        
+    }
+    .wah5{
+        margin-right: 25%;
+    }
+    
+}
+
+
+@media (min-width:769px) and (max-width:1024px){
+    html{
+        font-size: 90%;
+    }
+    .wah2{
+        float: none;
+        display: block;
+        text-align: center;
+        padding-left: 0%;
+    }
+    .gym{
+        float: none;
+        display: block;
+        text-align: center;
+        margin-right: 0%;
+    }
+    .one{
+        height: auto;
+        width: 100%;
+    }
+    .row1 .img , .row2 .text{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .row2 .img , .row1 .text{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .row1 .img , .row2 .img{
+        height: 150px;
+    }
+    .row1 .text , .row2 .text{
+        height: 215px;
+    }
+    .end1 , .end2 , .end3{
+        float: none;
+        width: 60%;
+        text-align: center;
+        margin-left: 7%;
+        height:170px;
+        margin-top: 7rem;
+
+
+    }
+    .p {
+        padding-top: 40%;
+    }
+    .q{
+        padding-top: 6%;
+    }
+    .best{
+        margin-top: 6%;
+    }
+    .row1 , .row2{
+        margin-left: 19%;
+    }
+    .e1 , .d1{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .d1{
+        display: block;
+        margin-left: 25%;
+    }
+    .form , .address{
+        float: none;
+        width: 100%;
+        height: auto;
+        text-align: center;
+
+    }
+    .address{
+        padding-left: 0%;
+    }
+    .form{
+        padding-left: 25%;
+    }
+    .wah3{
+        padding-right: 25%;
+    }
+    .wah4{
+        padding-top: 5%;
+    }
+    .wah4 label{
+        padding-right: 90%;
+        
+    }
+    .wah5{
+        margin-right: 25%;
+    }
+    .best1{
+        margin-top: 4%;
+    }
+    
+}
+
+
+@media(orientation:landscape) and (max-height:500px){
+   .header{
+    height: 90vmax;
+   }
+}
+
